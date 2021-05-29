@@ -10,7 +10,7 @@
 }
 
 html{
-    font-size: 93.75%;
+    font-size: 93.75%; /* 15px */
 }
 
 body{
@@ -169,5 +169,19 @@ footer{
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
     opacity: 0.6;
+}
+
+/* RESPONSIVE ======================*/
+@media (min-width:800px) {
+    html{
+        font-size: 87.5%;        
+    }
+
+    #balance{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
 }
 
